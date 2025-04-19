@@ -31,16 +31,27 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
-
+    createPlatform(200, 110, 400, 20, "green");  // Ground platform
+createPlatform(580, 240, 300, 20, "red"); // First elevation
+createPlatform(210, 335, 200, 20, "brown"); // Left platform
+createPlatform(850, 450, 250, 20, "blue");  // High platform
+createPlatform(600, 550, 350, 20, "yellow"); // Upper level
+createPlatform(0, 680, 1300, 20, "black");  // Death barrier
+createPlatform(500,400,200,20,"Pink");
 
 
     // TODO 3 - Create Collectables
-
+    createCollectable("diamond", 400, 250, 0, 0);
+createCollectable("steve", 600, 50);
+createCollectable("grace", 800, 350, 0.5, 0.8);
 
 
     
     // TODO 4 - Create Cannons
+    createCannon("top", 200, 1000);
+createCannon("right", 225, 3000);
+createCannon("right", 295, 3000)
+
 
 
     
